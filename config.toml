@@ -70,6 +70,12 @@ paginate = 5
         url = "search"
         weight = -60
         pre = "search"
+    [[menu.main]]
+        identifier = "admin"
+        name = "Admin"
+        url = "admin"
+        weight = -50
+        pre = "search"
 
 [related]
     includeNewer = true
