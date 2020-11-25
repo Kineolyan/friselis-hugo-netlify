@@ -1,0 +1,3 @@
+[build]
+publish = "public"
+command = "git submodule update --init --recursive --depth=1 && hugo --gc --minify"
